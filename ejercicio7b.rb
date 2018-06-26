@@ -1,9 +1,6 @@
 # Clase producto
 class Product
-  attr_reader :name
-  attr_reader :large
-  attr_reader :medium
-  attr_reader :small
+  attr_reader :name, :large, :medium, :small
 
   def initialize(name, large, medium, small, xsmall)
     @name = name
